@@ -22,7 +22,7 @@ int getwordCount(const char* srcstr, char c)
 int main()
 {
     char buf[5000] ={0};
-    char c;
+    char c = 3;
     gets(buf);
     scanf("%c",&c);
     int n = getwordCount(buf,c);
